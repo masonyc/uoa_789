@@ -9,7 +9,7 @@ Test r2: 0.781
 Explained Variance Score of OLS model for val is 0.7724175721130828
 Explained Variance Score of OLS model for test is 0.7809903246321959
 
-----------------------------------------------------------------------
+-----------------------Drop outs----------------------------
 akl_embedding_1667354721.csv
 
 batch=256
@@ -27,3 +27,88 @@ Validation RMSE: 0.0604
 
 Training r2: 0.7832
 Validation r2: 0.7951
+
+----------------------------------------------------------------------
+akl_embedding_1667361380.csv
+batch=256
+neighbour_size = 3x3
+dropout = 0.7
+layer = 3
+hidden_layer = 8
+lr=0.01
+weight_decay=None
+epoch=20
+
+Training RMSE: 0.0638
+Validation RMSE: 0.0606
+
+Training r2: 0.7827
+Validation r2: 0.7944
+----------------------------------------------------------------------
+akl_embedding_1667433616.csv
+batch=256
+neighbour_size = 3x3
+dropout = 0.3
+layer = 3
+hidden_layer = 8
+lr=0.01
+weight_decay=None
+epoch=20
+stop @ 7
+
+Training RMSE: 0.0638
+Validation RMSE: 0.0605
+
+Training r2: 0.7827
+Validation r2: 0.7947
+----------------------------------------------------------------------
+akl_embedding_1667431638.csv
+batch=256
+neighbour_size = 3x3
+dropout = 0.3
+layer = 5
+hidden_layer = 8
+lr=0.01
+weight_decay=None
+epoch=20
+stop@4
+
+Training RMSE: 0.0634
+Validation RMSE: 0.0603
+
+Training r2: 0.7841
+Validation r2: 0.7955
+----------------------------------------------------------------------
+akl_embedding_1667430231.csv
+batch=256
+neighbour_size = 2x2
+dropout = 0.3
+layer = 5
+hidden_layer = 8
+lr=0.01
+weight_decay=None
+epoch=20
+stop@4
+
+Training RMSE: 0.0639
+Validation RMSE: 0.0604
+
+Training r2: 0.7826
+Validation r2: 0.795
+
+----------------------------------------------------------------------
+akl_embedding_1667445589.csv
+batch=256
+neighbour_size = 3x3
+dropout = 0.3
+layer = 8
+hidden_layer = 8
+lr=0.01
+epoch=20
+stop @ 8
+
+Training RMSE: 0.0638
+Validation RMSE: 0.0602
+
+Training r2: 0.783
+Validation r2: 0.7956

@@ -10,61 +10,6 @@ Explained Variance Score of OLS model for val is 0.7724175721130828
 Explained Variance Score of OLS model for test is 0.7809903246321959
 
 ----------------------------------------------------------------------
-
-akl_embedding_2022_10_31_1121.csv
-batch=64
-neighbour_size = 5x5
-dropout = 0.5
-layer = 3
-hidden_layer = 32
-lr=0.01
-weight_decay=5e-7
-epoch=10
-
-Training RMSE: 0.0637
-Validation RMSE: 0.1308
-
-Training r2: 0.7832
-Validation r2: 0.5561
-
----------------------------------------------------------
-
-akl_embedding_2022_11_01_1200.csv
-batch=64
-neighbour_size = 5x5
-dropout = 0.5
-layer = 3
-hidden_layer = 16
-lr=0.01
-weight_decay=None
-epoch=10
-
-Training RMSE: 0.0637
-Validation RMSE: 0.0605
-
-Training r2: 0.7832
-Validation r2: 0.7946
-
----------------------------------------------------------
-
-akl_embedding_2022_11_01_1337.csv
-batch=64
-neighbour_size = 5x5
-dropout = 0.5
-layer = 3
-hidden_layer = 8
-lr=0.01
-weight_decay=None
-epoch=20
-
-Training RMSE: 0.0639
-Validation RMSE: 0.0618
-
-Training r2: 0.7826
-Validation r2: 0.7902
-
----------------------------------------------------------
-
 akl_embedding_1667345475.csv
 batch=256
 neighbour_size = 5x5
@@ -80,3 +25,50 @@ Validation RMSE: 0.0605
 
 Training r2: 0.784
 Validation r2: 0.7947
+----------------------------------------------------------------------
+akl_embedding_1667434915.csv
+batch=256
+neighbour_size = 5x5
+dropout = 0.3
+layer = 5
+hidden_layer = 8
+lr=0.01
+epoch=20
+stop @ 4
+
+Training RMSE: 0.0634
+Validation RMSE: 0.0602
+
+Training r2: 0.7843
+Validation r2: 0.7958
+----------------------------------------------------------------------
+akl_embedding_1667437587.csv
+neighbour_size = 5x5
+dropout = 0.5
+layer = 5
+hidden_layer = 8
+lr=0.01
+epoch=20
+stop @ 5
+
+Training RMSE: 0.0636
+Validation RMSE: 0.0601
+
+Training r2: 0.7837
+Validation r2: 0.7959
+
+----------------------------------------------------------------------
+akl_embedding_1667439027.csv
+neighbour_size = 5x5
+dropout = 0.7
+layer = 5
+hidden_layer = 8
+lr=0.01
+epoch=20
+stop @ 4
+
+Training RMSE: 0.0639
+Validation RMSE: 0.0605
+
+Training r2: 0.7826
+Validation r2: 0.7946
