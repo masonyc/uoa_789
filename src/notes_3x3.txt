@@ -10,6 +10,7 @@ Explained Variance Score of OLS model for val is 0.7724175721130828
 Explained Variance Score of OLS model for test is 0.7809903246321959
 
 -----------------------Drop outs----------------------------
+OLD
 akl_embedding_1667354721.csv
 
 batch=256
@@ -29,7 +30,7 @@ Training r2: 0.7832
 Validation r2: 0.7951
 
 ----------------------------------------------------------------------
-akl_embedding_1667361380.csv
+akl_embedding_1667625923.csv
 batch=256
 neighbour_size = 3x3
 dropout = 0.7
@@ -38,14 +39,15 @@ hidden_layer = 8
 lr=0.01
 weight_decay=None
 epoch=20
+stop @ 8
 
-Training RMSE: 0.0638
-Validation RMSE: 0.0606
+Training RMSE: 0.0635
+Validation RMSE: 0.0601
 
-Training r2: 0.7827
-Validation r2: 0.7944
+Training r2: 0.784
+Validation r2: 0.796
 ----------------------------------------------------------------------
-akl_embedding_1667433616.csv
+akl_embedding_1667623231.csv
 batch=256
 neighbour_size = 3x3
 dropout = 0.3
@@ -54,15 +56,15 @@ hidden_layer = 8
 lr=0.01
 weight_decay=None
 epoch=20
-stop @ 7
+stop @ 6
 
-Training RMSE: 0.0638
-Validation RMSE: 0.0605
+Training RMSE: 0.0635
+Validation RMSE: 0.06
 
-Training r2: 0.7827
-Validation r2: 0.7947
+Training r2: 0.7838
+Validation r2: 0.7964
 ----------------------------------------------------------------------
-akl_embedding_1667431638.csv
+akl_embedding_1667617290.csv
 batch=256
 neighbour_size = 3x3
 dropout = 0.3
@@ -74,12 +76,12 @@ epoch=20
 stop@4
 
 Training RMSE: 0.0634
-Validation RMSE: 0.0603
+Validation RMSE: 0.0602
 
-Training r2: 0.7841
-Validation r2: 0.7955
+Training r2: 0.7843
+Validation r2: 0.7958
 ----------------------------------------------------------------------
-akl_embedding_1667430231.csv
+akl_embedding_1667614430.csv
 batch=256
 neighbour_size = 2x2
 dropout = 0.3
@@ -88,13 +90,13 @@ hidden_layer = 8
 lr=0.01
 weight_decay=None
 epoch=20
-stop@4
+stop@11
 
-Training RMSE: 0.0639
-Validation RMSE: 0.0604
+Training RMSE: 0.0633
+Validation RMSE: 0.0599
 
-Training r2: 0.7826
-Validation r2: 0.795
+Training r2: 0.7846
+Validation r2: 0.7969
 
 ----------------------------------------------------------------------
 akl_embedding_1667445589.csv
