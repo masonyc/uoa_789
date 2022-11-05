@@ -26,6 +26,7 @@ Validation RMSE: 0.0605
 Training r2: 0.784
 Validation r2: 0.7947
 ----------------------------------------------------------------------
+OLD
 akl_embedding_1667434915.csv
 batch=256
 neighbour_size = 5x5
@@ -42,33 +43,32 @@ Validation RMSE: 0.0602
 Training r2: 0.7843
 Validation r2: 0.7958
 ----------------------------------------------------------------------
-akl_embedding_1667437587.csv
+akl_embedding_1667630246.csv
 neighbour_size = 5x5
 dropout = 0.5
 layer = 5
 hidden_layer = 8
 lr=0.01
 epoch=20
-stop @ 5
+stop @ 6
 
 Training RMSE: 0.0636
 Validation RMSE: 0.0601
 
-Training r2: 0.7837
-Validation r2: 0.7959
-
+Training r2: 0.7834
+Validation r2: 0.7961
 ----------------------------------------------------------------------
-akl_embedding_1667439027.csv
+akl_embedding_1667627851.csv
 neighbour_size = 5x5
 dropout = 0.7
 layer = 5
 hidden_layer = 8
 lr=0.01
 epoch=20
-stop @ 4
+stop @ 2
 
-Training RMSE: 0.0639
-Validation RMSE: 0.0605
+Training RMSE: 0.0636
+Validation RMSE: 0.0602
 
-Training r2: 0.7826
-Validation r2: 0.7946
+Training r2: 0.7837
+Validation r2: 0.7956
