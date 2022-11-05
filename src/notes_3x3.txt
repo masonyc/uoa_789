@@ -9,17 +9,17 @@ Test r2: 0.781
 Explained Variance Score of OLS model for val is 0.7724175721130828
 Explained Variance Score of OLS model for test is 0.7809903246321959
 
------------------------Drop outs----------------------------
-akl_embedding_1667627080.csv
-
 batch=256
-neighbour_size = 3x3
-dropout = 0.5
-layer = 3
 hidden_layer = 8
 lr=0.01
 weight_decay=None
 epoch=20
+-----------------------Drop outs----------------------------
+akl_embedding_1667627080.csv
+
+neighbour_size = 3x3
+dropout = 0.5
+layer = 3
 stop@4
 
 Training RMSE: 0.0638
@@ -30,14 +30,9 @@ Validation r2: 0.7947
 
 ----------------------------------------------------------------------
 akl_embedding_1667625923.csv
-batch=256
 neighbour_size = 3x3
 dropout = 0.7
 layer = 3
-hidden_layer = 8
-lr=0.01
-weight_decay=None
-epoch=20
 stop @ 8
 
 Training RMSE: 0.0635
@@ -47,14 +42,9 @@ Training r2: 0.784
 Validation r2: 0.796
 ----------------------------------------------------------------------
 akl_embedding_1667623231.csv
-batch=256
 neighbour_size = 3x3
 dropout = 0.3
 layer = 3
-hidden_layer = 8
-lr=0.01
-weight_decay=None
-epoch=20
 stop @ 6
 
 Training RMSE: 0.0635
@@ -64,14 +54,9 @@ Training r2: 0.7838
 Validation r2: 0.7964
 ----------------------------------------------------------------------
 akl_embedding_1667617290.csv
-batch=256
 neighbour_size = 3x3
 dropout = 0.3
 layer = 5
-hidden_layer = 8
-lr=0.01
-weight_decay=None
-epoch=20
 stop@4
 
 Training RMSE: 0.0634
@@ -79,33 +64,12 @@ Validation RMSE: 0.0602
 
 Training r2: 0.7843
 Validation r2: 0.7958
-----------------------------------------------------------------------
-akl_embedding_1667614430.csv
-batch=256
-neighbour_size = 2x2
-dropout = 0.3
-layer = 5
-hidden_layer = 8
-lr=0.01
-weight_decay=None
-epoch=20
-stop@11
-
-Training RMSE: 0.0633
-Validation RMSE: 0.0599
-
-Training r2: 0.7846
-Validation r2: 0.7969
 
 ----------------------------------------------------------------------
 akl_embedding_1667445589.csv
-batch=256
 neighbour_size = 3x3
 dropout = 0.3
 layer = 8
-hidden_layer = 8
-lr=0.01
-epoch=20
 stop @ 8
 
 Training RMSE: 0.0638

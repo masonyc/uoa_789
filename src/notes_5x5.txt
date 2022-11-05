@@ -9,62 +9,40 @@ Test r2: 0.781
 Explained Variance Score of OLS model for val is 0.7724175721130828
 Explained Variance Score of OLS model for test is 0.7809903246321959
 
-----------------------------------------------------------------------
-akl_embedding_1667345475.csv
 batch=256
-neighbour_size = 5x5
-dropout = 0.5
-layer = 3
 hidden_layer = 8
 lr=0.01
 weight_decay=None
 epoch=20
-
-Training RMSE: 0.0635
-Validation RMSE: 0.0605
-
-Training r2: 0.784
-Validation r2: 0.7947
 ----------------------------------------------------------------------
-OLD
-akl_embedding_1667434915.csv
-batch=256
-neighbour_size = 5x5
-dropout = 0.3
-layer = 5
-hidden_layer = 8
-lr=0.01
-epoch=20
-stop @ 4
-
-Training RMSE: 0.0634
-Validation RMSE: 0.0602
-
-Training r2: 0.7843
-Validation r2: 0.7958
-----------------------------------------------------------------------
-akl_embedding_1667630246.csv
+akl_embedding_1667632368.csv
 neighbour_size = 5x5
 dropout = 0.5
 layer = 5
-hidden_layer = 8
-lr=0.01
-epoch=20
-stop @ 6
+stop @ 2
 
-Training RMSE: 0.0636
-Validation RMSE: 0.0601
+Training RMSE: 0.0637
+Validation RMSE: 0.06
 
-Training r2: 0.7834
-Validation r2: 0.7961
+Training r2: 0.7832
+Validation r2: 0.7964
+----------------------------------------------------------------------
+akl_embedding_1667631531.csv
+neighbour_size = 5x5
+dropout = 0.3
+layer = 5
+stop @ 4
+
+Training RMSE: 0.0639
+Validation RMSE: 0.0605
+
+Training r2: 0.7825
+Validation r2: 0.7946
 ----------------------------------------------------------------------
 akl_embedding_1667627851.csv
 neighbour_size = 5x5
 dropout = 0.7
 layer = 5
-hidden_layer = 8
-lr=0.01
-epoch=20
 stop @ 2
 
 Training RMSE: 0.0636
@@ -72,3 +50,17 @@ Validation RMSE: 0.0602
 
 Training r2: 0.7837
 Validation r2: 0.7956
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+batch=256
+hidden_layer = 16
+lr=0.01
+weight_decay=None
+epoch=20
+
+mean layer
+----------------------------------------------------------------------
+NUM_LAYERS = 5
+DROP_OUT = 0.3

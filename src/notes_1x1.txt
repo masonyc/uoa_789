@@ -9,16 +9,16 @@ Test r2: 0.781
 Explained Variance Score of OLS model for val is 0.7724175721130828
 Explained Variance Score of OLS model for test is 0.7809903246321959
 
-----------------------------------------------------------------------
-akl_embedding_1667440808.csv
-
 batch=256
-neighbour_size = 1x1
-dropout = 0.3
-layer = 5
 hidden_layer = 8
 lr=0.01
 epoch=20
+----------------------------------------------------------------------
+akl_embedding_1667440808.csv
+
+neighbour_size = 1x1
+dropout = 0.3
+layer = 5
 stop @ 6
 
 Training RMSE: 0.0638
