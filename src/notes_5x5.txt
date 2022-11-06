@@ -62,5 +62,27 @@ epoch=20
 
 mean layer
 ----------------------------------------------------------------------
+akl_embedding_1667716704.csv
 NUM_LAYERS = 5
+DROP_OUT = 0.3
+stop @ 9
+
+Training RMSE: 0.0627
+Validation RMSE: 0.0593
+
+Training r2: 0.7865
+Validation r2: 0.7989
+----------------------------------------------------------------------
+akl_embedding_1667719082.csv
+NUM_LAYERS = 5
+DROP_OUT = 0.5
+stop @ 7
+
+Training RMSE: 0.0633
+Validation RMSE: 0.0594
+
+Training r2: 0.7846
+Validation r2: 0.7984
+----------------------------------------------------------------------
+NUM_LAYERS = 8
 DROP_OUT = 0.3
