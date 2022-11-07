@@ -84,5 +84,24 @@ Validation RMSE: 0.0594
 Training r2: 0.7846
 Validation r2: 0.7984
 ----------------------------------------------------------------------
+akl_embedding_1667767124.csv
 NUM_LAYERS = 8
 DROP_OUT = 0.3
+stop @ 14
+
+Training RMSE: 0.063
+Validation RMSE: 0.0598
+
+Training r2: 0.7857
+Validation r2: 0.797
+----------------------------------------------------------------------
+akl_embedding_1667781757.csv
+NUM_LAYERS = 3
+DROP_OUT = 0.3
+stop @ 17
+
+Training RMSE: 0.0628
+Validation RMSE: 0.0596
+
+Training r2: 0.7863
+Validation r2: 0.7979
