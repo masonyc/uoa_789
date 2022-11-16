@@ -122,3 +122,20 @@ Validation RMSE: 0.06
 
 Training r2: 0.7727
 Validation r2: 0.7762
+------------------------------------------------------------------
+batch=1024
+hidden_layer = 16
+lr=0.01
+weight_decay=None
+epoch=20
+--------------------LAYER 5---------------------------------------
+akl_embedding_1668582832
+dropout = 0.3
+layer = 5
+stop @ 5
+
+Training RMSE: 0.0635
+Validation RMSE: 0.0602
+
+Training r2: 0.7838
+Validation r2: 0.7956
