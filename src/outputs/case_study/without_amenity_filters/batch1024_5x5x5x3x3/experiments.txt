@@ -1,0 +1,14 @@
+ 
+"1642664": [-36.9300718216044, 174.641498664011] Glengarry Road: 6 amenity 4 shop 1 restaurant (at max distance)
+"1663560": [-37.0406824203628, 174.880282797954] Mahia Road: 8 amenity 1 shop (at max distance and river in the middle)
+
+Inside
+"1853166": [-36.8773628941525, 174.714052724922] Fifth Avenue, 40+ shops 50+ amenity 6 restaurant (perfect)
+"1536688": [-36.588771638678494, 174.696085087484] Moenui Avenue, 30+ anebuty, 4 restaurant, 23 shops (perfect)
+"233000": [-36.8896096933108, 174.749486948873] Halston Road, 8 shop, 30+amenity,5+restaurant, 1healthcare
+
+
+inner circle
+"340038": [-36.7078901613, 174.7278486272] East Coast Road, 18 amenity 4 restaurant, 2 healthcare, 12 shops (only one direction)
+"1663821": [-37.0377217298, 174.8778284999] Ashmere Lane, 13 amentiy, 1 restaurant, 1 shop  (far away)
+"2600617": [-37.06413864635231, 174.92146577796] Corsica Way, 1 healthcare, 20 amentity(no useful ones), 3 shop(one direction and far away) (Also river involved)
